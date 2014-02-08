@@ -43,7 +43,6 @@
     For list of available properties check the imported 
     nbproject/build-impl.xml file. 
 
-
     Other way how to customize the build is by overriding existing main targets.
     The target of interest are: 
 
@@ -66,6 +65,5 @@
     compile target as regular run target does. Again, for list of available 
     properties which you can use check the target you are overriding in 
     nbproject/build-impl.xml file. 
-
     -->
 </project>
