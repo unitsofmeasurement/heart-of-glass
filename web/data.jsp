@@ -4,9 +4,9 @@
 <%@page import="org.things.Things"%>
 <%@page import="org.things.device.SerialDevice"%>
 <%@page import="org.things.Device"%>
-<%@page import="org.unitsofmeasurement.demo.health.Health"%>
-<%@page import="org.unitsofmeasurement.demo.health.HeartRateAmount"%>
-<%!    private static Device things;
+<%@page import="org.unitsofmeasurement.domain.health.Health"%>
+<%@page import="org.unitsofmeasurement.domain.health.types.HeartRateAmount"%>
+<%! private static Device things;
     private static boolean inited = false;
     private static String porta = "/dev/ttyUSB0";
     private static final List<HeartRateAmount> stack = new ArrayList<HeartRateAmount>();
